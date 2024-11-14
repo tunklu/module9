@@ -12,7 +12,7 @@ for i in first_strings + second_strings:
     if (len(i)%2) == 0:
         third_result[i] = len(i)
 
-third_result = dict((i,len(i)) for i in (first_strings+second_strings) if (len(i)%2) == 0)
+third_result = {i:len(i) for i in (first_strings+second_strings) if (len(i)%2) == 0}
 
 print(list(first_result))
 print(list(second_result))
