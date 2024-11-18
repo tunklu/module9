@@ -1,3 +1,5 @@
+first = 'Мама мыла раму'
+second = 'Рамена мало было'
 import random
 
 first = 'Мама мыла раму'
